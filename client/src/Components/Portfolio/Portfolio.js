@@ -23,12 +23,12 @@ export default function Portfolio() {
         <>
         <div className="viewContainer">
             <h1>Here are some of my projects...</h1>
-                <div className="projectBox" onMouseOver={()=> setModal1(true)} > {/* onMouseOverCapture ={setModal1(false)} */}
+                <div className="projectBox"  > {/* onMouseOver={()=> setModal1(true)} onMouseOverCapture ={setModal1(false)} */}
                   <a href="https://rocky-meadow-16617.herokuapp.com/">
                     <img class="projectPhoto" src={Knife}></img> 
                     <section className="projectLabel">Dinner Party</section>
                   </a>
-                  {(modal1 && <p>Dinner Party is an event planning app where users can create invitations and rsvp to others parties.</p> )}          
+                  {/* {(modal1 && <p>Dinner Party is an event planning app where users can create invitations and rsvp to others parties.</p> )}           */}
                 </div>
                 <div className="projectBox">
                   <a href="https://mmoritz8.github.io/Project-1/Joel_art/arts.html">

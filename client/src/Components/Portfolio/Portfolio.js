@@ -16,7 +16,7 @@ export default function Portfolio() {
             <h1>Here are some of my projects...</h1>
                 <div className="projectBox"  >
                   <a href="https://rocky-meadow-16617.herokuapp.com/">
-                    <img class="projectPhoto" src={Knife}></img> 
+                    <img className="projectPhoto" src={Knife}></img> 
                     <section className="projectLabel">Dinner Party</section>
                   </a>
                 </div>

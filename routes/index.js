@@ -6,8 +6,8 @@ const creds = require('../config/config');
 var transport = {
     host: 'smtp.gmail.com',
     auth: {
-        user: creds.USER,
-        pass: creds.PASS
+        user: 'jdaviddelatte@gmail.com',//creds.USER,
+        pass: 'Pantocrator'//creds.PASS
     }
 }
 
@@ -34,7 +34,7 @@ transporter.verify((error, success) => {
          text: content
      }
 
-     transppter.sendMail(mail, (err, data) => {
+     transporter.sendMail(mail, (err, data) => {
          if (err) {
              res.json({
                  msg: 'fail'

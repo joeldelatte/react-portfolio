@@ -7,8 +7,8 @@ function Nav () {
     return (
         <div className="sideNav">
             <Avatar />
-            <Link role="button" to="/bio" >Bio</Link>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/bio" >Bio</Link>
+            <Link to="/">Portfolio</Link>
             <Link to="/contact">Contact</Link>
         </div>
     )

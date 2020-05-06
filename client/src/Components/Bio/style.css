@@ -3,3 +3,6 @@
     padding: 15px;
 }
 
+.viewContainer p {
+    text-align: left;
+}

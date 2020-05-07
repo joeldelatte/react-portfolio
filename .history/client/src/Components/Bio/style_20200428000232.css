@@ -1,0 +1,8 @@
+.viewContainer {
+    margin-left: 250px;
+    padding: 15px;
+}
+
+.viewContainer p {
+    text-align: left;
+}

@@ -4,6 +4,28 @@
     text-align: center;
 }
 
+/* .title {
+    display: inline-block;
+} */
+
+/* .portfolioNav {
+    display: inline-block;
+}
+
+.portfolioNav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    color: #818181;
+    display: block;
+    text-align: center;
+  }
+
+.portfolioNav a:hover {
+    color: #aed6f1;
+} */
+
 .projectBox {
     width: 200px;
     height: 200px;
@@ -41,12 +63,9 @@
     box-sizing: content-box;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .move {
         padding-left: 130px;
         box-sizing: content-box;
-    }
-    .viewContainer {
-        margin-left: 100px; 
     }
 } 

@@ -13,7 +13,7 @@ function Avatar () {
 
     return (
       <div>
-          <img src={Portrait} alt="avatar"  className="avatar" /> {/* style={styles} */}
+          <img src={Portrait} alt="avatar" style={styles} className/>
       </div>
     );
 };

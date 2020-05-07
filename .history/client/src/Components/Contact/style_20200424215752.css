@@ -15,7 +15,7 @@ input[type=text], select {
   }
   
   input[type=submit] {
-    width: 75px;
+    width: 100%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -38,10 +38,4 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .viewContainer {
-      margin-left: 100px;
-    }
   }

@@ -35,7 +35,7 @@ export default function Contact() {
     return (
         <>
           <form id="contact-form" onSubmit={handleSubmit} className="viewContainer" method="POST">
-          <h1>Drop me a line.</h1>
+          <h1>Want to get in touch, drop me a line.</h1>
               <label htmlFor="fname">Name</label>
               <input type="text" id="name" name="firstname" placeholder="Your name.." />
               <label htmlFor="email">Email</label>

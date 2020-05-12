@@ -5,7 +5,7 @@ import NewsPaper from "../Portfolio/images/austin1.jpeg";
 import Burger from "../Portfolio/images/burger.jpg"
 import Knife from "../Portfolio/images/knife.png"
 
-import './style.css';
+import './portfolio.css';
 
 export default function Portfolio() {
 

@@ -37,8 +37,8 @@ export default function Contact() {
         <div className="contact">
         <h1>Drop me a line:</h1>
         <span className="email-address">joeldelatte@gmail.com</span>
-        <a href="https://github.com/joeldelatte" target="_blank" >github.com/joeldelatte</a>
-        <a href="https://www.linkedin.com/in/joel-delatte-1b167250/" target="_blank" >linkedin.com/in/joel-delatte-1b167250/</a>
+        <a href="https://github.com/joeldelatte" >github.com/joeldelatte</a>
+        <a href="https://www.linkedin.com/in/joel-delatte-1b167250/" >linkedin.com/in/joel-delatte-1b167250/</a>
         <h2>Send me a message:</h2>
           <form id="contact-form" onSubmit={handleSubmit} className="form" method="POST">
               <label htmlFor="fname">Name</label>

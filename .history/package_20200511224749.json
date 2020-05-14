@@ -27,5 +27,6 @@
     "if-env": "^1.0.4",
     "nodemailer": "^6.4.6",
     "react-router-dom": "^5.1.2"
-  }
+  },
+  "homepage" : "http://joeldelatte.github.io/react-portfolio/"
 }

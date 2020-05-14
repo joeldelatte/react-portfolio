@@ -1,0 +1,52 @@
+.viewContainer {
+    margin-left: 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+.projectBox {
+    width: 600px;
+    height: 400px;
+    float: left;
+    position: relative;
+    /* text-align: center; */
+    margin: 20px;
+}
+
+.projectLabel {
+    color: #FDFEFE;
+    text-align: center;
+    font-size: medium;
+    background-color: #aed6f1;
+    width: 592px;
+    height: 50px;
+    padding: 4px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.projectPhoto {
+    width: 600px;
+    height: 400px;
+    float: left;
+    position: relative;
+    text-align: center;   
+}
+
+.move {
+    padding-left: 45px;
+    box-sizing: content-box;
+}
+
+@media only screen and (max-width: 768px) {
+    .move {
+        padding-left: 130px;
+        box-sizing: content-box;
+    }
+    .viewContainer {
+        margin-left: 110px; 
+    }
+} 

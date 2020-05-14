@@ -19,8 +19,8 @@ export default function Portfolio() {
                     <img className="projectPhoto" src={Knife}></img> 
                     <section className="projectLabel">Dinner Party</section>
                   </a>
-                  <p>A party planner for home chefs. Post invitations or RSVP to parties. 
-                    Uses MySql, Sequellize ORM, Express.js, React Node.
+                  <p>A supper-club planning app for avid home chefs. Post events for others to RSVP to, or RSVP to other home chef's parties. 
+                    Full stack application usses MySql, Sequellize ORM, Express.js, React Node.
                     <br></br>
                     See the github repository <a href="https://github.com/joeldelatte/Poject_3_Dinner_Party">here</a>.
                   </p>
@@ -40,10 +40,12 @@ export default function Portfolio() {
                     <img className="projectPhoto" src={Burger}></img>
                     <section className="projectLabel">Burger-Time</section>
                   </a>
+                <div class>
                   <p>A burger logger made with MySQL, a custom ORM, Node, Express, and Handlebars.
                     <br></br>
                     See the github repository <a href="https://github.com/joeldelatte/eat-da-burger">here</a>.
                   </p>
+                </div>
                 </div>
                 <div className="projectBox">
                   <a href="https://joeldelatte.github.io/day-planner/" target="_blank">

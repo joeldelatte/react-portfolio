@@ -18,11 +18,11 @@
 
 .projectText {
     width: 200px;
-    height: 200px;
+    height: 100px;
     float: left;
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .projectLabel {
@@ -67,13 +67,36 @@
     }
 
     .projectBox {
+        min-width: 200px;
+        min-height: 200px;
+        font-size: small;
+        float: left;
+        position: relative;
+        text-align: center;
+        margin: 20px;
+    }    
+
+    .projectLabel {
+        color: #818181;
+        text-align: center;
+        font-size: large;
+        background-color: #aed6f1;
+        width: 200px;
+        height: 30px;
+        padding: 15;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .projectPhoto {
         width: 200px;
         height: 200px;
         float: left;
         position: relative;
-        text-align: center;
-        margin: 20px 20px 150px 20px;
-        
+        text-align: center;   
     }
 
 

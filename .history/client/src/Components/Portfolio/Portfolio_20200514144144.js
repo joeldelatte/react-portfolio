@@ -19,8 +19,8 @@ export default function Portfolio() {
                     <img className="projectPhoto" src={Knife}></img> 
                     <section className="projectLabel">Dinner Party</section>
                   </a>
-                  <p>A party planner for home chefs. Post invitations or RSVP to parties. 
-                    Uses MySql, Sequellize ORM, Express.js, React Node.
+                  <p>A party planning app for avid home chefs to post invitations or RSVP other parties. 
+                    Full stack application usses MySql, Sequellize ORM, Express.js, React Node.
                     <br></br>
                     See the github repository <a href="https://github.com/joeldelatte/Poject_3_Dinner_Party">here</a>.
                   </p>

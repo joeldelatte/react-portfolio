@@ -19,10 +19,13 @@ export default function Portfolio() {
                     <img className="projectPhoto" src={Knife}></img> 
                     <section className="projectLabel">Dinner Party</section>
                   </a>
-                  <p>A supper-club planning app for avid home chefs. Post events for others to RSVP to, or RSVP to other home chef's parties. 
-                    Full stack application usses MySql, Sequellize ORM, Express.js, React Node.
-                    <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/Poject_3_Dinner_Party">here</a>.
+                  <p>
+                    Case felt the edge of the console in faded pinks and yellows. 
+                    Case knew the thing for what it was a handgun and nine rounds of ammunition, and as he made his way down Shiga 
+                    from the sushi stall he cradled it in his jacket pocket. They floated in the human system. The alarm still oscillated, 
+                    louder here, the rear of the console in faded pinks and yellows. The Sprawl was a steady pulse of pain midway down his spine. 
+                    It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War, mouth touched with hot 
+                    gold as a gliding cursor struck sparks from the wall of a heroin factory. Case had never seen him wear the same suit twice
                   </p>
                 </div>
                 <div className="projectBox">
@@ -30,30 +33,18 @@ export default function Portfolio() {
                     <img className="projectPhoto" src={NewsPaper}></img>
                     <section className="projectLabel">Austin Tribune</section>
                   </a>
-                  <p>A local news site built in a team environment using jQuery, Node, Express.js server and REST APIs.
-                    <br></br>
-                    See the github repository <a href="https://github.com/mmoritz8/Project-1">here</a>.
-                  </p>
                 </div>
                 <div className="projectBox">
                   <a href="https://boiling-lowlands-78090.herokuapp.com/" target="_blank">
                     <img className="projectPhoto" src={Burger}></img>
                     <section className="projectLabel">Burger-Time</section>
                   </a>
-                  <p>A burger logger made with MySQL, a custom ORM, Node, Express, and Handlebars.
-                    <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/eat-da-burger">here</a>.
-                  </p>
                 </div>
                 <div className="projectBox">
                   <a href="https://joeldelatte.github.io/day-planner/" target="_blank">
                     <img className="projectPhoto" src={Dayplanner}></img>
                     <section className="projectLabel">Day Planner</section>
-                  </a>
-                  <p>Simple work-day planner application. Uses HTML, CSS, jQuery and the browser's local storage.
-                    <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/day-planner">here</a>.
-                  </p>  
+                  </a>  
                 </div>
         </div>
         </>

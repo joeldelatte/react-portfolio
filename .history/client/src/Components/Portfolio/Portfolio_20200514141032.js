@@ -22,7 +22,7 @@ export default function Portfolio() {
                   <p>A supper-club planning app for avid home chefs. Post events for others to RSVP to, or RSVP to other home chef's parties. 
                     Full stack application usses MySql, Sequellize ORM, Express.js, React Node.
                     <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/Poject_3_Dinner_Party">here</a>.
+                    See the github repository <a href="https://boiling-lowlands-78090.herokuapp.com">here</a>.
                   </p>
                 </div>
                 <div className="projectBox">
@@ -30,9 +30,9 @@ export default function Portfolio() {
                     <img className="projectPhoto" src={NewsPaper}></img>
                     <section className="projectLabel">Austin Tribune</section>
                   </a>
-                  <p>A local news site built in a team environment using jQuery, Node, Express.js server and REST APIs.
+                  <p>A local news site using jQuery, Node, Express.js server and REST APIs.
                     <br></br>
-                    See the github repository <a href="https://github.com/mmoritz8/Project-1">here</a>.
+                    See the github repository <a href="https://boiling-lowlands-78090.herokuapp.com">here</a>.
                   </p>
                 </div>
                 <div className="projectBox">
@@ -42,7 +42,7 @@ export default function Portfolio() {
                   </a>
                   <p>A burger logger made with MySQL, a custom ORM, Node, Express, and Handlebars.
                     <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/eat-da-burger">here</a>.
+                    See the github repository <a href="https://boiling-lowlands-78090.herokuapp.com">here</a>.
                   </p>
                 </div>
                 <div className="projectBox">
@@ -52,7 +52,7 @@ export default function Portfolio() {
                   </a>
                   <p>Simple work-day planner application. Uses HTML, CSS, jQuery and the browser's local storage.
                     <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/day-planner">here</a>.
+                    See the github repository <a href="https://boiling-lowlands-78090.herokuapp.com">here</a>.
                   </p>  
                 </div>
         </div>

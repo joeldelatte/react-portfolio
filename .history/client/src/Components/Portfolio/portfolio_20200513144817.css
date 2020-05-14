@@ -1,10 +1,7 @@
 .portfolio {
     margin-left: 250px;
     padding: 15px;
-}
-
-.portfolio h1 {
-    margin-left: 20px;
+    text-align: center;
 }
 
 .projectBox {
@@ -23,7 +20,7 @@
     background-color: #aed6f1;
     width: 200px;
     height: 30px;
-    padding: 4;
+    padding: 10;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -53,14 +50,9 @@
         margin-left: 110px; 
     }
 
-    .portfolio h1 {
-        margin-left: 20px; 
-    }
-
     .projectBox {
-        min-width: 200px;
-        min-height: 200px;
-        font-size: small;
+        width: 200px;
+        height: 200px;
         float: left;
         position: relative;
         text-align: center;
@@ -74,7 +66,7 @@
         background-color: #aed6f1;
         width: 200px;
         height: 30px;
-        padding: 15;
+        padding: 4;
         position: absolute;
         top: 80%;
         left: 50%;

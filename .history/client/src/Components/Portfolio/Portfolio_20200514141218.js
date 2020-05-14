@@ -42,7 +42,7 @@ export default function Portfolio() {
                   </a>
                   <p>A burger logger made with MySQL, a custom ORM, Node, Express, and Handlebars.
                     <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/eat-da-burger">here</a>.
+                    See the github repository <a href="https://boiling-lowlands-78090.herokuapp.com">here</a>.
                   </p>
                 </div>
                 <div className="projectBox">
@@ -52,7 +52,7 @@ export default function Portfolio() {
                   </a>
                   <p>Simple work-day planner application. Uses HTML, CSS, jQuery and the browser's local storage.
                     <br></br>
-                    See the github repository <a href="https://github.com/joeldelatte/day-planner">here</a>.
+                    See the github repository <a href="https://boiling-lowlands-78090.herokuapp.com">here</a>.
                   </p>  
                 </div>
         </div>

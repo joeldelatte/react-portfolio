@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+}
+
+.bio {
+    max-width: 50%;
+    padding: 15px;
+    max-width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+}
+
+.bio p {
+    text-align: center;
+}
+
+
+    @media only screen and (max-width: 768px) {
+        .viewContainer {
+            margin-left: 110px; 
+        }
+    }

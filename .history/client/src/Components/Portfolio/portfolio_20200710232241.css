@@ -1,0 +1,185 @@
+.portfolio {
+    margin-left: 250px;
+    padding: 15px;
+}
+
+.portfolio h1 {
+    margin-left: 20px;
+}
+
+.projectBox {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    /* position: relative; */
+    text-align: center;
+    margin: 20px;
+}
+
+.projectText {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    /* position: relative; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projectLabel {
+    color: #818181;
+    text-align: center;
+    font-size: large;
+    background-color: #aed6f1;
+    width: 200px;
+    height: 30px;
+    padding: 4;
+    /* position: absolute;
+    top: 80%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    
+}
+
+.projectPhoto {
+    width: 200px;
+    height: 200px;
+    /* float: left;
+    position: relative; */
+    text-align: center;   
+}
+
+.move {
+    padding-left: 45px;
+    box-sizing: content-box;
+}
+
+footer {
+    height: 3rem;
+    padding-top: 6rem;
+    background-color: rgb(68,88,60);
+    background-image: linear-gradient(to right bottom, rgba(31,33,28, 0.901), rgba(68,88,60, 0.601));
+    -webkit-clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+    text-align: center;
+  }
+
+/* @media only screen and (max-width: 768px) {
+    .move {
+        padding-left: 130px;
+        box-sizing: content-box;
+    }
+    .portfolio {
+        margin-left: 110px; 
+    }
+
+    .portfolio h1 {
+        margin-left: 20px; 
+    }
+
+    .projectBox {
+        width: 200px;
+        height: 200px;
+        float: left;
+        position: relative;
+        text-align: center;
+        margin: 20px 20px 150px 20px;
+        
+    }
+
+
+}  */
+
+/* .feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; } */
+
+  .card {
+  /* perspective: 150rem;
+  -moz-perspective: 150rem; */
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+ }
+  .card__side {
+    height: 20rem;
+    /* width: 20rem; */
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card__side--front {
+      background-color: #ffffff; }
+    .card__side--back {
+      transform: rotateY(180deg); }
+      .card__side--back-1 {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+
+  .card:hover .card__side--front {
+    transform: rotateY(-180deg); }
+  .card:hover .card__side--back {
+    transform: rotateY(0); }
+  /* .card__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+    .card__picture--1 {
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730) } */
+    .card__heading {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #ffffff;
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    width: 75%; }
+  .card__heading-span {
+    padding: .5rem 1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone; }
+    .card__heading-span--1 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .card__details {
+    padding: 3rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 8rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }

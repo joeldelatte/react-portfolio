@@ -1,0 +1,94 @@
+.portfolio {
+    margin-left: 250px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.portfolio h1 {
+    margin-left: 20px;
+    flex-wrap: nowrap;
+}
+
+.projectBox {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.projectText {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projectLabel {
+    color: #818181;
+    text-align: center;
+    font-size: large;
+    background-color: #aed6f1;
+    width: 200px;
+    height: 30px;
+    padding: 4;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.projectPhoto {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;   
+}
+
+.move {
+    padding-left: 45px;
+    box-sizing: content-box;
+}
+
+footer {
+    height: 3rem;
+    padding-top: 6rem;
+    background-color: rgb(68,88,60);
+    background-image: linear-gradient(to right bottom, rgba(31,33,28, 0.901), rgba(68,88,60, 0.601));
+    -webkit-clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+    text-align: center;
+  }
+
+@media only screen and (max-width: 768px) {
+    .move {
+        padding-left: 130px;
+        box-sizing: content-box;
+    }
+    .portfolio {
+        margin-left: 110px; 
+    }
+
+    .portfolio h1 {
+        margin-left: 20px; 
+    }
+
+    .projectBox {
+        width: 200px;
+        height: 200px;
+        float: left;
+        position: relative;
+        text-align: center;
+        margin: 20px 20px 150px 20px;
+        
+    }
+
+
+} 

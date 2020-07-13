@@ -1,0 +1,18 @@
+.viewContainer {
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 50%;
+    margin-left: 250px;
+    padding: 15px;
+}
+
+.viewContainer p {
+    text-align: left;
+}
+
+
+    @media only screen and (max-width: 768px) {
+        .viewContainer {
+            margin-left: 110px; 
+        }
+    }

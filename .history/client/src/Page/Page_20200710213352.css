@@ -1,0 +1,42 @@
+.header {
+  height: 38%;
+  background-image: linear-gradient(to right bottom, rgba(68,88,60, 1), rgba(68,88,60, 0.501));
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%); 
+  /* position: relative; */
+}
+
+  .avatar {
+    border: 1px solid;
+    border-color: rgb(42,47,40);
+    display: inline;
+    max-width: 200px;
+    border-radius: 100%;
+    margin: 25px;
+    }
+
+.nav {
+    /* position: absolute;
+    top: 40%;
+    left: 50%; */
+    display: inline;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(31,33,28);
+    display: inline;
+    text-align: center;
+  }
+
+.nav a:hover {
+    color: rgb(247, 247, 247);
+}
+

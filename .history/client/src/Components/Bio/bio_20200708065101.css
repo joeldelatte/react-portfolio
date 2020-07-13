@@ -1,0 +1,17 @@
+.viewContainer {
+    max-width: 50%;
+    justify-content: center;
+    /* margin-left: 250px; */
+    padding: 15px;
+}
+
+.viewContainer p {
+    text-align: left;
+}
+
+
+    @media only screen and (max-width: 768px) {
+        .viewContainer {
+            margin-left: 110px; 
+        }
+    }

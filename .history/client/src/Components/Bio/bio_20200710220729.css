@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+}
+
+.bio {
+    max-width: 50%;
+    padding: 15px;
+    max-width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+}
+
+.bio p {
+    text-align: center;
+}
+
+footer {
+  height: 3rem;
+  padding-top: 6rem;
+  background-color: rgb(68,88,60);
+  background-image: linear-gradient(to right bottom, rgba(31,33,28, 0.901), rgba(68,88,60, 0.601));
+  -webkit-clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+  text-align: center;
+}
+
+
+    @media only screen and (max-width: 768px) {
+        .viewContainer {
+            margin-left: 110px; 
+        }
+    }

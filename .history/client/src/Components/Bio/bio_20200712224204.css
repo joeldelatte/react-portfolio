@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+}
+
+.bio {
+    min-height: 100%;
+    padding: 15px;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: -5rem;
+}
+
+.bio p {
+    text-align: center;
+}
+
+footer {
+  height: 3rem;
+  padding-top: 6rem;
+  /* background-color: rgb(68,88,60); */
+  background-image: linear-gradient(to right bottom, rgba(31,33,28, 1), rgba(68,88,60, 0.501));
+  -webkit-clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+  text-align: center;
+}
+
+
+    @media only screen and (max-width: 768px) {
+        .container {
+            height: 100vh;
+        }
+    }

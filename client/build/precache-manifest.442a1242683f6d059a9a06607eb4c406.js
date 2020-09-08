@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "869e7315f6bf93a83cc2",
-    "url": "/static/css/main.8d8a875d.chunk.css"
+    "revision": "a75722f8c3561ebe2692",
+    "url": "/static/css/main.df804dfb.chunk.css"
   },
   {
-    "revision": "869e7315f6bf93a83cc2",
-    "url": "/static/js/main.b399bb27.chunk.js"
+    "revision": "a75722f8c3561ebe2692",
+    "url": "/static/js/main.9ec5ecec.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/knife.ab61e842.png"
   },
   {
-    "revision": "1bddc5874a0ac7da5e00a38aae94d7e3",
+    "revision": "1c8e721bf2e870ff02c7905d4e8fbf32",
     "url": "/index.html"
   }
 ];

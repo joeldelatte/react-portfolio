@@ -12,7 +12,9 @@ export default function Contact() {
 
         axios({
             method: "POST",
-            url: "http://localhost:3001/send", //https://joel-delatte-portfolio.herokuapp.com/send
+
+            url: "https://joel-delatte-portfolio.herokuapp.com/send", //http://localhost:3001/send
+
             data: {
                 name: name,
                 email: email,

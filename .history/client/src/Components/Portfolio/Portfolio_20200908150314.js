@@ -11,8 +11,8 @@ export default function Portfolio() {
 
 
     return (
-      <div >
-        <h1>Here are some of my projects...</h1>
+      <>
+        <h1 className="center-text">Here are some of my projects...</h1>
         <div className="portfolio">
           <div className="projectBox">
             <a
@@ -28,7 +28,11 @@ export default function Portfolio() {
               parties. Uses MySql, Sequellize ORM, Express.js, React Node.
               <br></br>
               See the github repository{" "}
-              <a href="https://github.com/joeldelatte/Poject_3_Dinner_Party">
+              <a
+                href="https://github.com/joeldelatte/Poject_3_Dinner_Party"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 here
               </a>
               .
@@ -48,7 +52,14 @@ export default function Portfolio() {
               Express.js server and REST APIs.
               <br></br>
               See the github repository{" "}
-              <a href="https://github.com/mmoritz8/Project-1">here</a>.
+              <a
+                href="https://github.com/mmoritz8/Project-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
             </p>
           </div>
           <div className="projectBox">
@@ -65,7 +76,14 @@ export default function Portfolio() {
               Handlebars.
               <br></br>
               See the github repository{" "}
-              <a href="https://github.com/joeldelatte/eat-da-burger">here</a>.
+              <a
+                href="https://github.com/joeldelatte/eat-da-burger"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
             </p>
           </div>
           <div className="projectBox">
@@ -82,13 +100,20 @@ export default function Portfolio() {
               the browser's local storage.
               <br></br>
               See the github repository{" "}
-              <a href="https://github.com/joeldelatte/day-planner">here</a>.
+              <a
+                href="https://github.com/joeldelatte/day-planner"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
             </p>
           </div>
         </div>
         <div className="space"></div>
         <footer>Hello</footer>
-      </div>
+      </>
     );
 }
 
